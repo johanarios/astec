@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.0" xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
+	
+	<persistence-unit name="SBV">
+		<class>com.sisbibvir.unmsm.entidades.Alumno</class>
+		<class>com.sisbibvir.unmsm.entidades.Alumnotesi</class>
+		<class>com.sisbibvir.unmsm.entidades.Asistencia</class>
+		<class>com.sisbibvir.unmsm.entidades.Ciclo</class>
+		<class>com.sisbibvir.unmsm.entidades.Clase</class>
+		<class>com.sisbibvir.unmsm.entidades.Curso</class>
+		<class>com.sisbibvir.unmsm.entidades.DepartamentoAcademico</class>
+		<class>com.sisbibvir.unmsm.entidades.DetalleGrupo</class>
+		<class>com.sisbibvir.unmsm.entidades.DetalleProfesor</class>
+		<class>com.sisbibvir.unmsm.entidades.DetalleTagsTesi</class>
+		<class>com.sisbibvir.unmsm.entidades.Documento</class>
+		<class>com.sisbibvir.unmsm.entidades.Entregable</class>
+		<class>com.sisbibvir.unmsm.entidades.Estudio</class>
+		<class>com.sisbibvir.unmsm.entidades.Grupo</class>
+		<class>com.sisbibvir.unmsm.entidades.Historialasignaciontesi</class>
+		<class>com.sisbibvir.unmsm.entidades.InfoAyuda</class>
+		<class>com.sisbibvir.unmsm.entidades.LineaDeInvestigacion</class>
+		<class>com.sisbibvir.unmsm.entidades.Lineatesi</class>
+		<class>com.sisbibvir.unmsm.entidades.Observacion</class>
+		<class>com.sisbibvir.unmsm.entidades.Profesor</class>
+		<class>com.sisbibvir.unmsm.entidades.ProfesorHasTagsAsesor</class>
+		<class>com.sisbibvir.unmsm.entidades.Propuesta</class>
+		<class>com.sisbibvir.unmsm.entidades.Sustentacion</class>
+		<class>com.sisbibvir.unmsm.entidades.TagsAsesor</class>
+		<class>com.sisbibvir.unmsm.entidades.TagsTesi</class>
+		<class>com.sisbibvir.unmsm.entidades.Tarea</class>
+		<class>com.sisbibvir.unmsm.entidades.Tesi</class>
+		<class>com.sisbibvir.unmsm.entidades.TipoUsuario</class>
+		<class>com.sisbibvir.unmsm.entidades.Usuario</class>
+		
+ 		<!--<properties>
+ 		 	<property name="javax.persistence.jdbc.url" value="jdbc:mysql://instance32842.db.xeround.com:9361/sisbibvir"/>
+      		<property name="javax.persistence.jdbc.password" value="root"/>
+      		<property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+      		<property name="javax.persistence.jdbc.user" value="cesarmiranda"/>
+ 		 </properties>
+ 		-->
+ 		<properties>
+ 		 	<property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/sisbibvir"/>
+      		<property name="javax.persistence.jdbc.password" value=""/>
+      		<property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+      		<property name="javax.persistence.jdbc.user" value="root"/>
+ 		 </properties>
+	</persistence-unit>
+</persistence>
